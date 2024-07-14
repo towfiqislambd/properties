@@ -1,0 +1,2 @@
+$(document).ready(function(){$(".owl-carousel").owlCarousel({loop:!0,dots:!0,margin:15,slideSpeed:1000,autoplay:!0,autoplayTimeout:3000,autoplayHoverPause:!0,resonsiveClass:!0,responsiveRefreshRate:!0,responsive:{0:{items:1},768:{items:2},1000:{items:2},1200:{items:3},1920:{items:3}}})})
+$('a').on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html,body').animate({scrollTop:$(hash).offset().top},400,function(){window.location.hash=hash})}})
